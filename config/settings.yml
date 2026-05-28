@@ -1,0 +1,13 @@
+discourse_notification_state_tracker:
+  discourse_notification_state_tracker_enabled:
+    default: false
+    client: true
+  discourse_notification_state_tracker_tracked_groups:
+    default: ""
+    type: group_list
+    allow_any: false
+    refresh: true
+  discourse_notification_state_tracker_track_tags:
+    default: true
+  discourse_notification_state_tracker_track_categories:
+    default: true

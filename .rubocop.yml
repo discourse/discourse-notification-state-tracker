@@ -1,0 +1,12 @@
+inherit_gem:
+  rubocop-discourse: stree-compat.yml
+
+# Top-level defs and constants in runner scripts are local to the file; the
+# Discourse cops' concern about namespace pollution doesn't apply because these
+# files are executed via `bin/rails runner`, not loaded as part of the plugin.
+Discourse/Plugins/NamespaceMethods:
+  Exclude:
+    - "script/**/*"
+Discourse/Plugins/NamespaceConstants:
+  Exclude:
+    - "script/**/*"

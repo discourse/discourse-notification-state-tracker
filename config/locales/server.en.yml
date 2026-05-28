@@ -1,0 +1,6 @@
+en:
+  site_settings:
+    discourse_notification_state_tracker_enabled: "Snapshot tag and category notification levels before a tracked group applies its defaults, and restore them when a user leaves the group."
+    discourse_notification_state_tracker_tracked_groups: "Groups whose tag and category notification defaults are snapshotted on join and reverted on removal. Automatic groups are ignored."
+    discourse_notification_state_tracker_track_tags: "Snapshot and restore per-tag notification levels."
+    discourse_notification_state_tracker_track_categories: "Snapshot and restore per-category notification levels."

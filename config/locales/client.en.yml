@@ -1,0 +1,6 @@
+en:
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          discourse_notification_state_tracker: "Notification state tracker"
